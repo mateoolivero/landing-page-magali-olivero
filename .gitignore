@@ -1,0 +1,14 @@
+# Herramientas locales
+.claude/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+
+# Dependencias (por si en el futuro se agregan)
+node_modules/

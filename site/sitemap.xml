@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO: reemplazar el dominio por el real antes de publicar -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://magaliolivero.com.ar/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://magaliolivero.com.ar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://magaliolivero.com.ar/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://magaliolivero.com.ar/?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://magaliolivero.com.ar/"/>
+  </url>
+  <url>
+    <loc>https://magaliolivero.com.ar/?lang=en</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://magaliolivero.com.ar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://magaliolivero.com.ar/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://magaliolivero.com.ar/?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://magaliolivero.com.ar/"/>
+  </url>
+  <url>
+    <loc>https://magaliolivero.com.ar/?lang=pt</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://magaliolivero.com.ar/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://magaliolivero.com.ar/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://magaliolivero.com.ar/?lang=pt"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://magaliolivero.com.ar/"/>
+  </url>
+</urlset>
