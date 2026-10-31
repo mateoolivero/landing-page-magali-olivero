@@ -131,5 +131,6 @@ details p { margin: 12px 0 0; color: #555; }
 /* Pie */
 .site-footer { padding: 32px 16px 96px; text-align: center; }
 .site-footer p { margin: 4px 0; }
+.dev-signature { display: block; width: 160px; height: auto; margin: 12px auto 0; }
 
 .whatsapp-float { position: fixed; right: 16px; bottom: 16px; background: var(--color-dark); color: #fff; padding: 14px 22px; border-radius: 999px; text-decoration: none; font-weight: 600; font-size: .9rem; box-shadow: 0 8px 24px rgba(0, 0, 0, .15); z-index: 20; }
