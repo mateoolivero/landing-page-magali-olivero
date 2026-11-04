@@ -23,10 +23,10 @@ HTML, CSS y JavaScript sin frameworks ni proceso de compilación. Se publica com
 ```
 landing-page-magali-olivero/
 ├── README.md
-├── docs/
+├── notas/
 │   ├── SECCIONES.md           ← plan de secciones de la página
 │   └── INFO-NECESARIA.md      ← checklist de información a pedirle a Magali
-└── site/                      ← el sitio que se publica
+└── docs/                      ← el sitio que se publica
     ├── index.html             ← página completa (textos en español)
     ├── css/styles.css         ← estilos (colores y tipografía en variables al inicio)
     ├── js/main.js             ← WhatsApp, dirección, idiomas, contador y menú
@@ -38,12 +38,12 @@ landing-page-magali-olivero/
 
 ## Ver el sitio en tu computadora
 
-Opción rápida: abrir `site/index.html` con doble clic en el navegador.
+Opción rápida: abrir `docs/index.html` con doble clic en el navegador.
 
 Para probarlo como en un servidor real (recomendado, así cargan bien el mapa y los idiomas), desde la carpeta del proyecto:
 
 ```bash
-python -m http.server 5500 --directory site
+python -m http.server 5500 --directory docs
 ```
 
 Y abrir http://localhost:5500.
@@ -52,33 +52,33 @@ Y abrir http://localhost:5500.
 
 | Qué | Dónde |
 | --- | --- |
-| Número de WhatsApp | `WHATSAPP_NUMBER` en `site/js/main.js` (formato internacional, sin `+` ni espacios) |
-| Mensaje prearmado de WhatsApp | `"whatsapp.msg"` en `site/js/i18n.js` (uno por idioma) |
-| Dirección del consultorio (mapa, texto y "Cómo llegar") | `CONSULTORIO_DIRECCION` en `site/js/main.js` |
-| Dirección y coordenadas para Google | bloque `application/ld+json` en el `<head>` de `site/index.html` |
-| Número del contador de pacientes | `PACIENTES_ACTIVOS` en `site/js/main.js` |
-| Textos en español | directamente en `site/index.html` |
-| Textos en inglés y portugués | `site/js/i18n.js`, con las mismas claves `data-i18n` del HTML |
-| Colores y tipografía | variables `:root` al inicio de `site/css/styles.css` |
-| Foto de portada | `site/assets/img/magali-cuerpo.jpg` y `.webp` |
-| Dominio del sitio | `https://magaliolivero.com.ar/` en `site/index.html`, `site/robots.txt` y `site/sitemap.xml` |
+| Número de WhatsApp | `WHATSAPP_NUMBER` en `docs/js/main.js` (formato internacional, sin `+` ni espacios) |
+| Mensaje prearmado de WhatsApp | `"whatsapp.msg"` en `docs/js/i18n.js` (uno por idioma) |
+| Dirección del consultorio (mapa, texto y "Cómo llegar") | `CONSULTORIO_DIRECCION` en `docs/js/main.js` |
+| Dirección y coordenadas para Google | bloque `application/ld+json` en el `<head>` de `docs/index.html` |
+| Número del contador de pacientes | `PACIENTES_ACTIVOS` en `docs/js/main.js` |
+| Textos en español | directamente en `docs/index.html` |
+| Textos en inglés y portugués | `docs/js/i18n.js`, con las mismas claves `data-i18n` del HTML |
+| Colores y tipografía | variables `:root` al inicio de `docs/css/styles.css` |
+| Foto de portada | `docs/assets/img/magali-cuerpo.jpg` y `.webp` |
+| Dominio del sitio | `https://magaliolivero.com.ar/` en `docs/index.html`, `docs/robots.txt` y `docs/sitemap.xml` |
 
-Cuando se cambia un texto en español, hay que actualizar también su traducción en `site/js/i18n.js`.
+Cuando se cambia un texto en español, hay que actualizar también su traducción en `docs/js/i18n.js`.
 
 ## Publicar
 
 ### GitHub Pages
 
-1. En el repo, ir a **Settings → Pages**.
-2. En **Source**, elegir **GitHub Actions** y usar la plantilla **Static HTML**, cambiando `path: '.'` por `path: './site'`.
-3. Al terminar, GitHub muestra la URL pública del sitio.
+El sitio está publicado en https://mateoolivero.github.io/landing-page-magali-olivero/
+
+GitHub Pages sirve la carpeta `docs/` de la rama `main` (**Settings → Pages → Deploy from a branch**), así que cada push a `main` publica la versión nueva. El archivo `docs/.nojekyll` evita que GitHub procese el sitio con Jekyll.
 
 > GitHub Pages es gratis para repos públicos. En un repo privado requiere un plan pago de GitHub.
 
 ### Netlify
 
 1. En [app.netlify.com](https://app.netlify.com), **Add new site → Import an existing project** y elegir este repo.
-2. En **Publish directory** poner `site` (sin comando de build).
+2. En **Publish directory** poner `docs` (sin comando de build).
 3. Cada push a `main` publica la versión nueva automáticamente.
 
 ### Antes de publicar
