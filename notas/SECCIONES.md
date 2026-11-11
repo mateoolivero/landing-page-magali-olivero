@@ -10,7 +10,7 @@ Orden pensado para guiar a la persona de "¿esto es para mí?" a "pido un turno"
 | 4 | **Sobre mí** | Generar confianza y cercanía | Foto, presentación breve en primera persona, formación, enfoque, matrícula |
 | 5 | **Servicios / modalidades** | Qué puede contratar | Terapia individual, adolescentes, parejas, online/presencial, duración de sesión |
 | 6 | **Cómo trabajo / primer encuentro** | Bajar la ansiedad de la primera consulta | 3 pasos: escribís → coordinamos → primera sesión |
-| 7 | **Preguntas frecuentes** | Responder dudas que frenan la consulta | Obras sociales, honorarios, duración del tratamiento, online, confidencialidad |
+| 7 | **Preguntas frecuentes** | Responder dudas que frenan la consulta | Honorarios, duración del tratamiento, online, confidencialidad |
 | 8 | **Contacto / turnos** | Convertir | WhatsApp, formulario, email, dirección y mapa (si hay consultorio), horarios |
 | 9 | **Pie de página** | Datos formales | Nombre, matrícula, redes, aviso "no es un servicio de emergencias" + línea de ayuda |
 

@@ -24,7 +24,6 @@ const TRANSLATIONS = {
     "chip.adults": "Adults",
     "chip.teens": "Teens",
     "chip.inperson": "In person",
-    "chip.insurance": "[Health insurance]",
 
     "reasons.title": "Does any of this <span class=\"muted\">sound familiar?</span>",
     "reasons.1.t": "[Reason 1]",
@@ -62,7 +61,6 @@ const TRANSLATIONS = {
     "steps.3": "We have our first session",
 
     "faq.title": "Frequently asked <span class=\"muted\">questions.</span>",
-    "faq.1.q": "Do you accept health insurance?",
     "faq.2.q": "How long is each session?",
     "faq.3.q": "What is the first session like?",
     "faq.a": "[Answer]",
@@ -104,7 +102,6 @@ const TRANSLATIONS = {
     "chip.adults": "Adultos",
     "chip.teens": "Adolescentes",
     "chip.inperson": "Presencial",
-    "chip.insurance": "[Convênios]",
 
     "reasons.title": "Você se identifica <span class=\"muted\">com algo disso?</span>",
     "reasons.1.t": "[Motivo 1]",
@@ -142,7 +139,6 @@ const TRANSLATIONS = {
     "steps.3": "Fazemos a primeira sessão",
 
     "faq.title": "Perguntas <span class=\"muted\">frequentes.</span>",
-    "faq.1.q": "Você atende por convênio?",
     "faq.2.q": "Quanto tempo dura cada sessão?",
     "faq.3.q": "Como é a primeira sessão?",
     "faq.a": "[Resposta]",

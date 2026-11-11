@@ -18,7 +18,7 @@ Marcá con [x] lo que ya esté. Lo marcado con ⭐ es imprescindible para public
 - [ ] Idiomas en que atiende (si no es solo español)
 
 ## Turnos y honorarios
-- [ ] ⭐ ¿Atiende por obra social / prepaga? ¿Cuáles? ¿Da factura para reintegro?
+- [x] Obras sociales: no trabaja con obras sociales ni prepagas (atención particular)
 - [ ] ¿Publicamos honorarios o se informan por privado?
 - [ ] Días y horarios de atención
 - [ ] Cómo es el primer contacto (¿entrevista inicial? ¿gratuita o paga?)
